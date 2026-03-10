@@ -4,7 +4,7 @@ This project is a Full Stack Music Streaming Web Application developed as part o
 
 The application allows users to register, log in, stream music, manage favorites, edit profile details, and securely reset passwords.
 
-🛠️ Tech Stack
+Tech Stack
 🔹 Frontend
 React.js
 Redux Toolkit
@@ -27,8 +27,8 @@ VS Code
 Jamendo API (Music Data)
 ImageKit (Image Hosting)
 
-✨ Features
-🔐 Authentication
+Features-
+Authentication
 User Signup
 User Login
 JWT-based Authentication
@@ -36,7 +36,7 @@ Protected Routes
 Forgot Password
 Reset Password
 
-🎵 Music Features
+Music Features-
 Fetch songs from API
 Audio Playback Controls (Play, Pause, Next, Previous)
 Song State Management
@@ -47,13 +47,7 @@ Edit Profile
 Update User Information
 Secure Logout
 
-🎨 UI Features
-Fully Responsive Design
-Sidebar Navigation
-Modal Implementation
-Clean and Modern UI using Tailwind CSS
-
-🏗️ Architecture
+Architecture
 The project follows the MERN Stack Architecture:
 
 Frontend (React + Redux)
@@ -66,9 +60,9 @@ Global State Management using Redux Toolkit
 Token-based authentication system
 
 ⚙️ Installation & Setup
-1️⃣ Clone the repository
+Clone the repository
 git clone https://github.com/your-username/repository-name.git
-2️⃣ Install dependencies
+Install dependencies
 
 Frontend:
 cd client
@@ -77,15 +71,14 @@ npm install
 Backend:
 cd server
 npm install
-3️⃣ Setup Environment Variables
 
+Setup Environment Variables
 Create a .env file in the server folder and add:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 PORT=5000
 
-4️⃣ Run the project
-
+Run the project
 Backend:
 npm run dev
 
